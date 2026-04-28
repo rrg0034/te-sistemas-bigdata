@@ -1,0 +1,4 @@
+Modelo seleccionado: RandomForestRegressor
+MAE: 3.820
+RMSE: 4.775
+R2: 0.9278

@@ -1,0 +1,23 @@
+{
+    "endpoint": "GET /predicciones?producto_id=P001&limite=3",
+    "resultado": [
+        {
+            "fecha": "2026-01-01",
+            "tienda_id": "T01",
+            "producto_id": "P001",
+            "unidades_previstas": 57
+        },
+        {
+            "fecha": "2026-01-01",
+            "tienda_id": "T01",
+            "producto_id": "P002",
+            "unidades_previstas": 43
+        },
+        {
+            "fecha": "2026-01-01",
+            "tienda_id": "T01",
+            "producto_id": "P003",
+            "unidades_previstas": 54
+        }
+    ]
+}
