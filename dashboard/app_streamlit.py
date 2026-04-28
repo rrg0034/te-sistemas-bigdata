@@ -8,7 +8,7 @@ import os
 
 BASE = Path(__file__).resolve().parents[1]
 OUTPUT = BASE / "data" / "output"
-MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://ramonreinarr_db_user:M3gtf4geU380QhQr@cluster0.7p3faxg.mongodb.net/")
+MONGO_URI = os.getenv("MONGO_URI")
 MONGO_DB = os.getenv("MONGO_DB", "superfresh_bigdata")
 
 st.set_page_config(page_title="SuperFresh Dashboard", layout="wide")
